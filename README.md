@@ -164,3 +164,27 @@ El portfolio no se limita a mostrar información, sino que aplica criterios de d
 Javier Marcelo Cedrés González  
 2º Desarrollo de Aplicaciones Web (DAW)  
 IES Puerto de la Cruz – Telesforo Bravo
+
+---
+
+## Previsualización del proyecto
+
+- **About.vue**
+
+<img src="mi-portfolio/src/assets/imgs/Captura de pantalla 2026-01-31 182044.png" />
+
+- **Proyects.vue**
+
+<img src="mi-portfolio/src/assets/imgs/Captura de pantalla 2026-01-31 182055.png" />
+
+- **Skills.vue**
+
+<img src="mi-portfolio/src/assets/imgs/Captura de pantalla 2026-01-31 182604.png" />
+
+- **Experience.vue**
+
+<img src="mi-portfolio/src/assets/imgs/Captura de pantalla 2026-01-31 182106.png" />
+
+- **Contact.vue**
+
+<img src="mi-portfolio/src/assets/imgs/Captura de pantalla 2026-01-31 182117.png" />
