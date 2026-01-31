@@ -1,20 +1,25 @@
 <template>
-    <div id="top" class="min-h-screen bg-black text-white flex flex-col">
-        <div class="max-w-4xl mx-auto px-6 pt-20 flex-grow">
-            <header class="mb-16 flex justify-between items-center">
+    <div class="min-h-screen bg-slate-900 text-slate-100 flex flex-col">
+        <div class="max-w-5xl mx-auto px-6 pt-24 flex-grow">
+            <header class="mb-20 flex flex-col md:flex-row md:justify-between md:items-center gap-6">
                 <div>
-                    <h1 class="text-4xl font-bold">Javier</h1>
-                    <p class="mt-2 text-white/70">Frontend Developer · Vue · Tailwind</p>
+                    <h1 class="text-4xl font-bold text-sky-400">Javier</h1>
+                    <p class="mt-2 text-slate-400">Frontend Developer · Vue · Tailwind</p>
                 </div>
-                <p class="text-white/70">javier@gmail.com</p>
+                <p class="text-slate-400">javier@gmail.com</p>
             </header>
-            <section class="lg:grid flex flex-col grid-cols-1 lg:grid-cols-2 mb-8">
-                <div class="flex justify-center align-center lg:mb-0 mb-6">
-                    <img src="../assets/imgs/profile.jpg" alt="profile" class="rounded-full w-90 h-90">
+            <section class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center bg-slate-800 p-8 rounded-xl">
+                <div class="flex justify-center">
+                    <img src="../assets/imgs/profile.jpg" alt="profile" class="w-64 h-64 rounded-full object-cover border-4 border-sky-500 shadow-lg">
                 </div>
                 <div>
-                    <h2 class="text-2xl font-semibold">Sobre mí</h2>
-                    <p class="mt-4 text-white/70">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad sit recusandae iusto blanditiis. Adipisci ullam, explicabo pariatur, eos harum consequuntur non perferendis ipsam quo ad dolore, accusantium et! Similique, deserunt! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo aspernatur, molestias porro, animi distinctio delectus ducimus modi dolore nobis odio optio ipsa beatae praesentium, reiciendis nam! Animi praesentium provident accusantium! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum debitis qui odio ipsam cumque error rem deserunt distinctio officiis aperiam assumenda quod explicabo similique, illo sint minus nisi maiores provident!</p>
+                    <h2 class="text-2xl font-semibold text-sky-400">Sobre mí</h2>
+                    <p class="mt-4 text-slate-300 leading-relaxed">
+                        Desarrollador de software junior con experiencia internacional adquirida en dos programas Erasmus en Polonia. Trabajé para la 
+                        misma empresa en ambas ocasiones, primero durante mis prácticas de formación profesional y posteriormente en un Erasmus de 
+                        postgrado. Estas experiencias me permitieron reforzar mi pasión por la programación, adaptarme a entornos multiculturales y 
+                        participar en proyectos reales tanto frontend como full-stack. 
+                    </p>
                 </div>
             </section>
         </div>
@@ -23,5 +28,5 @@
 </template>
 
 <script setup>
-    import Footer from '../components/Footer.vue';
+import Footer from '../components/Footer.vue';
 </script>
